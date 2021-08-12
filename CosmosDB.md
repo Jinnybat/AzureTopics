@@ -38,6 +38,7 @@
   * Throughput means systems capability to process the data generally it is measured in queries handled per second by the DB. In cosmos DB throughput also expressed as Request Units(RUs), Usage of of Request Units are measured based on IO, Memory & CPU.
 
 # 1.8 Recommendation
+ <b> 
   1. Cosmos DB performance can be monitored from Metric Page or Azure Monitoring. Reports/Graphs can be fetched based on timeframes, regions, and containers.
   2. Use Replication across the globe at least in two regions if the data is very critical.
   3. Create alerts to check the performance and the RUs requirements continuously.
@@ -49,4 +50,4 @@
 Default Firewall allows "All Network", this should be configured for whitelisting the specific IPs or limiting the access to particular VNets.
   9. Geo-fencing can be done.
   10. Data in-transit should be accessible through SSL only.
-
+  </b>
