@@ -29,3 +29,7 @@
   1. <b>Hash</b> : Supports efficient equality queries.
   2. <b>Range</b> : Supports efficient equality queries, range queries, and order by queries.
   3. <b>Spatial</b> : Supports efficient spatial (within and distance) queries. The data type can be Point, Polygon, or LineString.
+
+# 1.6 Partition Keys
+  1. <b>Logical Partition</b> : Every container is divided into logical partition based on the partition key, this is done by Azure cosmos DB with distributed data algorithm to increase the performance of the query.
+  2. <b>Physical Partition</b> :  Each logic containers are directly mapped to the physical containers where data is actually stored. 
