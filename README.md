@@ -17,7 +17,7 @@
   5. <b>Eventual</b> : There is not gaurantee of the consistency or order however provide highest level of performance with lowest latency.
 
 # 1.3 Automatic Indexing
-  It is same as applying indexing to any other database, for the very good read result, however write may have negative impact.
+  * It is same as applying indexing to any other database, for the very good read result, however write may have negative impact.
   default indexing applied on every property of each item in a collection/container. Indexing may increate Request Units (RUs) as well.
   Azure also provide manual root path selection for excluding indexing in property too.
  
