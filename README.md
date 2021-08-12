@@ -14,6 +14,7 @@
   3. <b>Session</b> : It is highly consistent in withing the same session however outside of the session operations may have lag or no lag, although provide high performance.
   4. <b>Consistent Prefix</b> : Reads are highly consistent to a specific past time or could be current time(but not sure) although performance is very high.
   5. <b>Eventual</b> : There is not gaurantee of the consistency or order however provide highest level of performance with lowest latency.
-  
+
+# Automatic Indexing
   
   
