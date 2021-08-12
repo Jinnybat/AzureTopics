@@ -35,5 +35,4 @@
   2. <b>Physical Partition</b> :  Each logic containers are directly mapped to the physical containers where data is actually stored. 
 
 # 1.7 Throughput
-  Throughput means systems capability to process the data generally it is measured in queries handled per second by the DB.
-  In cosmos DB throughput also expressed as Request Units(RUs), Usage of of Request Units are measured based on IO, Memory & CPU.
+  * Throughput means systems capability to process the data generally it is measured in queries handled per second by the DB. In cosmos DB throughput also expressed as Request Units(RUs), Usage of of Request Units are measured based on IO, Memory & CPU.
