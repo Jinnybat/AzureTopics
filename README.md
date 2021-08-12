@@ -10,4 +10,10 @@
   
 # Consistency Levels (SBSCE)
   <b>Strong</b> : High consistency with no dirty read data will be consistent in every replication across regions.
+  <b>Bounded Staleness</b> : This level also allow high consistency although it is not 100% and a lag in operations could be there.
+  <b>Session</b> : It is highly consistent in withing the same session however outside of the session operations may have lag or no lag, although provide high performance.
+  <b>Consistent Prefix</b> : Reads are highly consistent to a specific past time or could be current time(but not sure) although performance is very high.
+  <b>Eventual</b> : There is not gaurantee of the consistency or order however provide highest level of performance with lowest latency.
+  
+  
   
