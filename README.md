@@ -33,3 +33,7 @@
 # 1.6 Partition Keys
   1. <b>Logical Partition</b> : Every container is divided into logical partition based on the partition key, this is done by Azure cosmos DB with distributed data algorithm to increase the performance of the query.
   2. <b>Physical Partition</b> :  Each logic containers are directly mapped to the physical containers where data is actually stored. 
+
+# 1.7 Throughput
+  Throughput means systems capability to process the data generally it is measured in queries handled per second by the DB.
+  In cosmos DB throughput also expressed as Request Units(RUs), Usage of of Request Units are measured based on IO, Memory & CPU.
