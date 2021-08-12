@@ -1,4 +1,4 @@
-# Cosmos DB
+# 1. Cosmos DB
 # Features
   1. Global Distributed (Can be deployed accross regions)
   2. Highly Scalable
