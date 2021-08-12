@@ -9,10 +9,10 @@
   8. Pricing (Based on Request Units(RUs), RUs calculated based on query,memory & CPU usage)
   
 # Consistency Levels (SBSCE)
-  <b>Strong</b> : High consistency with no dirty read data will be consistent in every replication across regions.<br>
-  <b>Bounded Staleness</b> : This level also allow high consistency although it is not 100% and a lag in operations could be there.<br>
-  <b>Session</b> : It is highly consistent in withing the same session however outside of the session operations may have lag or no lag, although provide high performance.<br>
-  <b>Consistent Prefix</b> : Reads are highly consistent to a specific past time or could be current time(but not sure) although performance is very high.<br>
+  <b>Strong</b> : High consistency with no dirty read data will be consistent in every replication across regions.<br><br>
+  <b>Bounded Staleness</b> : This level also allow high consistency although it is not 100% and a lag in operations could be there.<br><br>
+  <b>Session</b> : It is highly consistent in withing the same session however outside of the session operations may have lag or no lag, although provide high performance.<br><br>
+  <b>Consistent Prefix</b> : Reads are highly consistent to a specific past time or could be current time(but not sure) although performance is very high.<br><br>
   <b>Eventual</b> : There is not gaurantee of the consistency or order however provide highest level of performance with lowest latency.<br>
   
   
