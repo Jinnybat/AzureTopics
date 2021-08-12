@@ -38,16 +38,16 @@
   * Throughput means systems capability to process the data generally it is measured in queries handled per second by the DB. In cosmos DB throughput also expressed as Request Units(RUs), Usage of of Request Units are measured based on IO, Memory & CPU.
 
 # 1.8 Recommendation
- <b> 
-  1. Cosmos DB performance can be monitored from Metric Page or Azure Monitoring. Reports/Graphs can be fetched based on timeframes, regions, and containers.
-  2. Use Replication across the globe at least in two regions if the data is very critical.
-  3. Create alerts to check the performance and the RUs requirements continuously.
-  4. Create alerts to verify the attacks.
-  5. Automated backups are already there. Retention period and frequency can be increased by using the Datafactory.
-  6. Cosmos DB access key should be saved inside the vault and not inside the code.
-  7. Storage encryption is already managed by Microsoft.
-  8. Configure proper permissions to the users using IAM, follow the principle of least privilege.
-Default Firewall allows "All Network", this should be configured for whitelisting the specific IPs or limiting the access to particular VNets.
-  9. Geo-fencing can be done.
-  10. Data in-transit should be accessible through SSL only.
-  </b>
+ 
+  * <b>Cosmos DB performance can be monitored from Metric Page or Azure Monitoring. Reports/Graphs can be fetched based on timeframes, regions, and containers.</b>
+  * <b>Use Replication across the globe at least in two regions if the data is very critical.</b>
+  * <b>Create alerts to check the performance and the RUs requirements continuously.</b>
+  * <b>Create alerts to verify the attacks.</b>
+  * <b>Automated backups are already there. Retention period and frequency can be increased by using the Datafactory.</b>
+  * <b>Cosmos DB access key should be saved inside the vault and not inside the code.</b>
+  * <b>Storage encryption is already managed by Microsoft.</b>
+  * <b>Configure proper permissions to the users using IAM, follow the principle of least privilege.
+Default Firewall allows "All Network", this should be configured for whitelisting the specific IPs or limiting the access to particular VNets.</b>
+  * <b>Geo-fencing can be done.</b>
+  * <b>Data in-transit should be accessible through SSL only.</b>
+  
