@@ -8,3 +8,6 @@
   7. Consistency (SBSCE - Strong, Bounded StaleNess, Session(default), Consistent prefix & Eventual)
   8. Pricing (Based on Request Units(RUs), RUs calculated based on query,memory & CPU usage)
   
+# Consistency Levels (SBSCE)
+  <b>Strong</b> : High consistency with no dirty read data will be consistent in every replication across regions.
+  
